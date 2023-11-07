@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Courgette&family=Karla:wght@400;500&family=Montserrat:wght@300&family=Pinyon+Script&family=Roboto:wght@300;400&family=Rouge+Script&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: "Montserrat", sans-serif;
+  --sixtypx: 60px;
+  --thirtysixpx: 36px;
+  --twentyfourpx: 24px;
+  --twentypx: 20px;
+  --paragraphnpx: 14px;
+  --fourteenpx: 14px;
+  --twelvepx: 12px;
+}
+
+h1 {
+  font-size: var(--sixtypx);
+  font-weight: 600;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: var(--thirtysixpx);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--twentyfourpx);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: var(--twentypx);
+}
+h5 {
+  font-size: var(--sixteenpx);
+}
+
+h6 {
+  font-size: var(--fourteenpx);
+}
+
+p {
+  font-size: var(--paragraphnpx);
+  font-weight: 300;
+  line-height: 18fpx;
+}
